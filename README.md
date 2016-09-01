@@ -21,6 +21,7 @@ When submitting the grant, one must submit documents 1 and 2 separately. To comp
 type: 
 
 > make doc1 
+
 > make doc2
 
 The first command will produce [document1.pdf](document1.pdf); 
@@ -32,6 +33,7 @@ If you need to compile from within your LaTeX IDE instead of with the command li
 you need the flag: 
 
 > --jobname=document1 "\includeonly{doc1}\input{IF-2016-Part_B}"
+
 > --jobname=document1 "\includeonly{doc2}\input{IF-2016-Part_B}"
 
 to produce [document1.pdf](document1.pdf) and [document2.pdf](document2.pdf), respectively. 
