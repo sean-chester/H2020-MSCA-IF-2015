@@ -28,7 +28,7 @@
 \makeatother
 
 \usepackage{enumitem}
-\usepackage[style=verbose-ibid,backend=bibtex]{biblatex}
+\usepackage[style=verbose-ibid,backend=biber]{biblatex}
 \usepackage{hyperref}
 \usepackage{amsfonts,amsmath,amssymb}
 \usepackage{soul} % for smarter (word-wrapping) underlining.
@@ -49,7 +49,7 @@
 \let\oldfootnotesize\footnotesize
 \renewcommand{\footnotesize}{\fontsize{8bp}{1em}\selectfont}
 \renewcommand{\cite}{\autocite} % citations in footnotes
-\bibliography{bibliography}
+\addbibresource{bibliography.bib}
 
 \headheight=14pt
 
